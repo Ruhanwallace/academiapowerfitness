@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Aluno</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navegaçao -->
+    <nav class="w-full bg-white shadow-sm fixed top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="#" class="font-bold text-xl text-black">GYM ELITE</a>
+                <div class="flex items-center gap-6">
+                    <a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="/dashboard.html" class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 14l4-4-1.41-1.41L12 11.17l-2.59-2.59L8 10l4 4z"></path></svg>
+                        Portal de Membros
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Studante Dashboard -->
+    <div class="pt-16 bg-gray-50 min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-2 space-y-8">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h2 class="text-2xl font-bold mb-6">Próximas aulas</h2>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-4 border rounded-lg">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center">
+                                        <i class="fa-solid fa-wave-pulse w-6 h-6 text-gray-800"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold">HIIT Training</h3>
+                                        <p class="text-gray-600">segunda-feira, 9:00 </p>
+                                    </div>
+                                </div>
+                                <button class="px-4 py-2 bg-red-100 text-red-600 rounded-md hover:bg-red-200">
+                                    Cancelar
+                                </button>
+                            </div>
+                            <div class="flex items-center justify-between p-4 border rounded-lg">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center">
+                                        <i class="fa-light fa-wave-pulse"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold">Yoga Flow</h3>
+                                        <p class="text-gray-600">Quarta-feira, 10h30</p>
+                                    </div>
+                                </div>
+                                <button class="px-4 py-2 bg-red-100 text-red-600 rounded-md hover:bg-red-200">
+                                    Cancelar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h2 class="text-2xl font-bold mb-6">Progresso Fitness </h2>
+                        <div class="h-64 flex items-center justify-center border rounded-lg">
+                            <i class="fa-solid fa-heart-pulse h-18 w-18"></i>
+                            <span class="ml-2 text-gray-500">
+                                Gráfico de progresso em breve
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h2 class="text-2xl font-bold mb-6">Membros</h2>
+                        <div class="p-4 border rounded-lg">
+                            <div class="flex items-center gap-4 mb-4">
+                                <i  class="fa-solid fa-credit-card"></i>
+                                <span class="font-semibold">Premium Plan</span>
+                            </div>
+                            <p class="text-gray-600 mb-4">Próximo pagamento: 1º de julho de 2023</p>
+                            <button class="w-full bg-black text-white py-2 rounded-md font-semibold hover:bg-gray-800">
+                                Gerenciar plano
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h2 class="text-2xl font-bold mb-6">Horário de Funcionamento</h2>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span>Segunda a sexta</span>
+                                <span>05:00  - 23:00 horas</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Sábado</span>
+                                <span>06:00  - 22:00 horas</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span>Domingo</span>
+                                <span>07:00  - 20:00 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 Power GYM. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

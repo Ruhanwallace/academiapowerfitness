@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power GYM</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--font-awersome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans text-gray-700">
+
+    <!-- navegaçao/Navigation -->
+    <nav class="w-full bg-white shadow-sm fixed top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="#" class="font-bold text-xl text-black">Power GYM </a>
+                <div class="flex items-center gap-6">
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="#features" class="text-gray-700 hover:text-gray-900">Características</a>
+                    <a href="#pricing" class="text-gray-700 hover:text-gray-900">Preços</a>
+                    <a href="#contact" class="text-gray-700 hover:text-gray-900">Contato</a>
+                    <a href="/dashboard.html" class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 14l4-4-1.41-1.41L12 11.17l-2.59-2.59L8 10l4 4z"></path></svg>
+                        Portal de Membros
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- topo/Hero Section -->
+    <div class="relative bg-black text-white pt-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl font-bold mb-6">
+                        Transforme seu corpo, transforme sua vida
+                    </h1>
+                    <p class="text-xl mb-8">
+                        Junte-se às nossas instalações de última geração e tenha acesso a equipamentos premium, instrutores especializados e uma comunidade de apoio.
+                    </p>
+                    <div class="flex gap-4">
+                        <button class="bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100">
+                            Comece o teste gratuito
+                        </button>
+                        <button class="border border-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-black">
+                            Ver assinaturas
+                        </button>
+                    </div>
+                </div>
+                <div class="relative h-[500px]">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3" alt="Gym training" class="absolute inset-0 w-full h-full object-cover rounded-lg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--sobre /features Section -->
+    <section id="features" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Por que nos escolher?</h2>
+                <p class="text-xl text-gray-600">
+                    
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-regular fa-clipboard"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Agendamento Fácil</h3>
+                    <p class="text-gray-600">Reserve aulas e sessões on-line com nosso sistema de agendamento fácil de usar</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Equipmentos Premium </h3>
+                    <p class="text-gray-600">Acesso a equipamentos e instalações de ginástica de última geração</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Instrutores Especialistas</h3>
+                    <p class="text-gray-600">Trabalhe com personal trainers certificados para atingir seus objetivos de condicionamento físico</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">24/7 Acesso</h3>
+                    <p class="text-gray-600">Treine de acordo com sua programação com acesso às instalações 24 horas por dia</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-medal"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Programas de condicionamento físico</h3>
+                    <p class="text-gray-600">Programas estruturados para todos os níveis e objetivos de condicionamento físico</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-user-group text-white w-6 h-6"></i> 
+                        <!-- Ícone Font Awesome -->
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Comunidade</h3>
+                    <p class="text-gray-600">Junte-se a uma comunidade de apoio de entusiastas fitness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preço Section -->
+    <section id="pricing" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Planos de Sócios</h2>
+                <p class="text-xl text-gray-600">
+                    Escolha o plano que se adapta aos seus objetivos
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border rounded-lg p-8 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">Basico</h3>
+                    <div class="text-4xl font-bold mb-6">
+                        R$29
+                        <span class="text-lg font-normal text-gray-600">
+                            /mês
+                        </span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Acesso às instalações da academia</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Uso de equipamento básico</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Acesso ao vestiário</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>2 aulas em grupo por mês</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-black text-white py-3 rounded-md font-semibold hover:bg-gray-800">
+                        Começar Agora
+                    </button>
+                </div>
+                <div class="border rounded-lg p-8 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">Premium</h3>
+                    <div class="text-4xl font-bold mb-6">
+                        R$59
+                        <span class="text-lg font-normal text-gray-600">
+                            /mês
+                        </span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Todos os recursos básicos</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Aulas em grupo ilimitadas</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>1 sessão de treinamento personal/mês</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Consulta de nutrição</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-black text-white py-3 rounded-md font-semibold hover:bg-gray-800">
+                        Começar Agora
+                    </button>
+                </div>
+                <div class="border rounded-lg p-8 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">Elite</h3>
+                    <div class="text-4xl font-bold mb-6">
+                        R$99
+                        <span class="text-lg font-normal text-gray-600">
+                            /mês
+                        </span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Todos os recursos Premium</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>4 sessões de treinamento personal/mês</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Reserva de classe prioritária</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 8h-6l-2-2-2 2H4a1 1 0 000 2h16a1 1 0 100-2z"></path></svg>
+                            <span>Eventos exclusivos para membros</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-black text-white py-3 rounded-md font-semibold hover:bg-gray-800">
+                        Começar Agora
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-2 gap-12">
+            <!-- Contato Infor -->
+            <div>
+              <h2 class="text-4xl font-bold mb-6">Entre em contato</h2>
+              <p class="text-xl text-gray-600 mb-8">
+                Tem dúvidas? Estamos aqui para ajudá-lo em sua jornada de fitness.
+              </p>
+              <div class="space-y-4">
+                <!-- telefone -->
+                <div class="flex items-center gap-4">
+                    <a 
+                      href="https://wa.me/15551234567" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      class="flex items-center gap-4 no-underline hover:underline"
+                    >
+                      <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center">
+                        <!-- telefone icone -->
+                        <i class="fa-brands fa-whatsapp"></i>
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h11M9 21h6M17 3h2M7 3h6" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h3 class="font-semibold">WhatsApp</h3>
+                        <p class="text-gray-600"> +55(32) 999353466</p>
+                      </div>
+                    </a>
+                  </div>
+                <!-- Email -->
+                <div class="flex items-center gap-4">
+                  <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center">
+                    <!-- e-mail icone -->
+                    <i class="fa-solid fa-envelope"></i>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 4 7-4m-7 4v8" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-semibold">Email</h3>
+                    <p class="text-gray-600">info@Powergym.com</p>
+                  </div>
+                </div>
+                <!-- Location -->
+                <div class="flex items-center gap-4">
+                  <div class="w-12 h-12 bg-black text-white rounded-lg flex items-center justify-center">
+                    <!-- Replace with your location icon -->
+                    <i class="fa-solid fa-location-arrow"></i>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c3.314 0 6-1.343 6-3s-2.686-3-6-3-6 1.343-6 3 2.686 3 6 3z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-semibold">Localização</h3>
+                    <p class="text-gray-600">AV. colonia do Marçal 1650, São João Del Rei-MG</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact Form -->
+            <div>
+              <form class="space-y-6">
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Nome</label>
+                  <input
+                    type="text"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                  <input
+                    type="email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Mensagem</label>
+                  <textarea
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md h-32 focus:outline-none focus:ring-2 focus:ring-black"
+                  ></textarea>
+                </div>
+                <button class="w-full bg-black text-white py-3 rounded-md font-semibold hover:bg-gray-800">
+                  Enviar Mensagem
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+   
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 Power GYM. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
