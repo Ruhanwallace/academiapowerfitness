@@ -29,4 +29,21 @@ O projeto foi criado como parte do meu aprendizado em desenvolvimento Front-End,
 🔗 **Acesse o projeto:** https://ruhanwallace.github.io/academiapowerfitness/  
 
 
+imagem de como ficou o site 
+
+Pag inicial
+
+![Screenshot 2025-02-01 21-21-58](https://github.com/user-attachments/assets/c7f79a21-a07b-4b38-8aba-65cbd07726bf)
+
+
+Dashboard do Aluno
+![Screenshot 2025-02-01 21-22-22](https://github.com/user-attachments/assets/515b0d35-d1b2-402a-b1cf-e3cead96f9f6)
+
+
+
+
+
+
+
+
 
