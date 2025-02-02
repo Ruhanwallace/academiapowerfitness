@@ -12,6 +12,7 @@ Este é um projeto de site desenvolvido para academias e centros de fitness, com
 ## 🛠️ Tecnologias Utilizadas  
 
 - **HTML5 e CSS3:** Estruturação e estilização do site.  
+- **Tailwind CSS:** Estilização moderna e eficiente com classes utilitárias.  
 - **JavaScript:** Para interatividade e fluidez da navegação.  
 - **GitHub Pages:** Hospedagem gratuita e acessível do projeto.  
 
@@ -28,4 +29,4 @@ O projeto foi criado como parte do meu aprendizado em desenvolvimento Front-End,
 🔗 **Acesse o projeto:** https://ruhanwallace.github.io/academiapowerfitness/  
 
 
-Se quiser que eu personalize mais alguma coisa, é só avisar! 🚀😊  
+
