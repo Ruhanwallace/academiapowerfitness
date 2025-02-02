@@ -25,7 +25,7 @@ O projeto foi criado como parte do meu aprendizado em desenvolvimento Front-End,
 
 ---
 
-🔗 **Acesse o projeto:** [Link do GitHub Pages](#)  
-📩 **Entre em contato:** [Seu e-mail ou redes sociais]  
+🔗 **Acesse o projeto:** https://ruhanwallace.github.io/academiapowerfitness/  
+
 
 Se quiser que eu personalize mais alguma coisa, é só avisar! 🚀😊  
